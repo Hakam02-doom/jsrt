@@ -1,0 +1,1 @@
+import{t as e}from"./autoplay.zfrmdToU.js";var t=document.querySelector(`[data-run]`),n=t?.querySelector(`[data-run-again]`);if(t&&n){let r=()=>{matchMedia(`(prefers-reduced-motion: reduce)`).matches||(delete t.dataset.play,t.offsetWidth,t.dataset.play=`go`)};n.addEventListener(`click`,r),e(t,r,5500)}
